@@ -25,7 +25,7 @@ from solver.trainer import Trainer
 FLAGS = flags.FLAGS
 flags.DEFINE_string("train_config", None, "Training config path")
 flags.DEFINE_string(
-    "model_config", "configs/model_configs/7B.json", "Model config path"
+    "model_config", "configs/model_configs/120M.json", "Model config path"
 )
 
 
